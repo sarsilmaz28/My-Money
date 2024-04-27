@@ -1,0 +1,112 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 40px auto;
+    max-width: 960px;
+}
+
+.content{
+    padding-right: 30px;
+}
+
+.sidebar{
+    padding-left: 30px;
+}
+
+.sidebar form{
+    padding: 15px;
+    background: #1f9751;
+    border-radius: 8px;
+}
+
+.sidebar input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #555;
+    font-size: 1em;
+}
+
+.sidebar h3{
+    color: #1f9751;
+    margin-bottom: 15px;
+}
+
+.sidebar .total{
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: #1f9751;
+    text-align: center;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.sidebar label {
+    margin: 0 auto 15px;
+    display: block;
+    color: #fff;
+}
+
+form button{
+    background: none;
+    border: 2px solid #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+}
+
+/* Transactions */
+
+.transactions li{
+    display: flex;
+    margin: 20px auto;
+    border: 1px solid #f2f2f2;
+    box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.1);
+    padding: 20px 10px;
+    border-left: 4px solid #1f9751;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.transactions .name{
+    color: #777;
+    font-size: 1.4 em;
+}
+
+.transactions .date{
+    color: #777;
+    font-size: 1 em;
+}
+
+.transactions .amount{
+    margin-left: auto;
+    margin-right: 30px;
+    color: #777;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.transactions button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ddd;
+    color: #777;
+    border: none;
+    padding: 10px 6px;
+    text-align: center;
+    line-height: 0;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+

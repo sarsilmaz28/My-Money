@@ -1,0 +1,28 @@
+.navbar{
+    background: #effaf0;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 960px;
+}
+
+.title{
+    margin-right: auto;   /*Puts it to the extreme left  and other elemnets to the right*/
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1px;  /*Space between letters*/
+}
+
+.navbar button, .navbar a{
+    margin-left: 16px;
+}
+
+.navbar a{
+    color: #333;
+    text-decoration: none;
+}
